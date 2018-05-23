@@ -65,8 +65,8 @@ To setup the environment on Ubuntu 16.04 (16 CPUs, one P100, 100 GB disk), you c
 ### Steps to download and verify data
 
 Download the data using the following command. Note: this will require a recent version of tensorflow installed.
-   
-    python3 data_download.py --raw_dir raw_data
+
+    ./download_data.sh   
     
 
 
